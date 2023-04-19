@@ -1,0 +1,23 @@
+@tailwind components; 
+
+@layer components {
+    .hamburger-button {
+        @apply w-8 h-5 flex flex-col justify-between items-end
+    }
+    
+    .hamburger-button span {
+        @apply h-[4px] block bg-text-black rounded-sm
+    }
+
+    .hamburger-button span:nth-child(1) {
+        @apply w-full
+    }
+
+    .hamburger-button span:nth-child(2) {
+        @apply w-2/3
+    }
+
+    .hamburger-button span:nth-child(3) {
+        @apply w-2/5
+    }
+}

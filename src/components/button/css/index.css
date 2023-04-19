@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+    .button {
+        @apply border-none outline-none p-1 rounded-lg flex items-center justify-center gap-1
+    }
+
+    .icon-button {
+        @apply rounded-full min-w-[20px] min-h-[20px]
+    }
+}
