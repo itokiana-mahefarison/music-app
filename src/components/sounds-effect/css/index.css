@@ -1,0 +1,7 @@
+@tailwind components; 
+
+@layer components {
+    .sounds-effect{
+        @apply h-full
+    }
+}

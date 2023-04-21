@@ -1,0 +1,19 @@
+@tailwind components; 
+
+@layer components {
+    .baseline {
+        @apply flex w-full justify-between items-end pb-5
+    }
+
+    .baseline .baseline-text{
+        @apply flex flex-col gap-2
+    }
+
+    .baseline .baseline-text .thematic{
+        @apply text-3xl
+    }
+
+    .baseline .baseline-text .slogan{
+        @apply text-8xl font-extrabold
+    }
+}
