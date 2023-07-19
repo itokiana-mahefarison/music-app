@@ -2,6 +2,14 @@
 
 @layer components {
     .sounds-effect{
-        @apply h-full
+        @apply h-full flex items-center justify-center
+    }
+
+    .bar{
+        @apply block bg-text-black/50 rounded-md
+    }
+
+    .frequence-bar {
+        @apply flex gap-1 items-end 
     }
 }
